@@ -18,7 +18,7 @@ function AppJSX() {
     첫 번째 방식은 로직을 사용하지 않고 바로 렌더링 할 부분이 들어갈 때 사용하며,
     두 번째 방법은 렌더링 할 부분은 return 뒤에 넣어주고 그 앞에 변수 선언이나 조건을 처리할 때 사용합니다.
 
-    기존 코드에는 return 하는 부분이 없어서 warning이 발생하게 되었습니다. return을 하고 싶지 않고 로직을 사용하고 싶다면 map 대신에 forEach를 사용하면 됩니다.
+    기존 코드에는 return 하는 부분이 없어서 warning이 발생하게 되어 있으며 return없이 사용하고 싶다면 forEach를 사용하면 된다.
   */
   const name = '엘리';
   const list = ['우유', '딸기', '바나나'];

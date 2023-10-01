@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import AppTheme from './AppTheme';
+import AppJSX from './basic/AppJSX';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppTheme />
+    {/* <AppTheme /> */}
+    <AppJSX />
   </React.StrictMode>
 );
 
