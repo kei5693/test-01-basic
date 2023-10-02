@@ -1,4 +1,6 @@
 export default function personReducer(person, action) {
+	// https://react.dev/reference/react/useReducer
+	// 다른 컴포넌트에서 재사용 가능
   // personReducer(person, action)의 action에
   // dispatch({ type: 'updated', prev, current }); 의
   // ({ type: 'updated', prev, current })가 전달 된다

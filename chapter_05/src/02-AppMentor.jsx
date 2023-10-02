@@ -16,10 +16,9 @@ export default function AppMentor() {
       <button
         onClick={() => {
           const name = prompt(`멘토의 이름은?`);
-          setPerson((person) => ({
-            ...person,
+          setPerson((person) => ({...person,
             //mentor: { ...person.mentor, name: name }, key value가 같다면 생략
-            mentor: { ...person.mentor, name },
+            mentor: { ...person.mentor, name }, // const name = prompt(`멘토의 이름은?`);
           }));
         }}
       >

@@ -1,0 +1,42 @@
+01.강의안내 : 25분
+02.리액트 개념정리 : 27분
+03.개발환경 설정 : 36분
+04.기본 내용들 정리 : 1시간 28분
+
+05.고급 내용들 (Deep Dive) : 2시간 01분
+06.CSS 라이브러리 : 42분
+07.배포하기 : 11분
+08.투두 프로젝트 챌린지 : 1시간 41분
+
+09.리액트 라우터 : 36분
+10.리액트 쿼리 : 50분
+
+11.유튜브 프로젝트 준비 : 32분
+12.유튜브 프로젝트 만들기 : 2시간 19분
+
+13.쇼핑몰 프로젝트 준비 : 29분
+14.쇼핑몰 프로젝트 만들기 : 3시간 37분
+15.정리 : 15분
+
+
+yarn 사용
+node 버전이 16.10 이상이면 corepack enable (안되면 vscode를 관리자권한으로 실행)
+
+프로젝트 생성 : yarn create reant-app xxxxxxx
+public : 정적인 리소스
+크롬확장프로그램 : React Developer Tools
+vscode 확장프로그램 : auto import
+
+유용한 VS Code 익스텐션
+- Material Theme: 현재 사용하고 있는 테마(dark)
+- Material Icon Theme: 현재 사용하고 있는 아이콘들
+- Auto Import: 자동으로 import 해줌
+- Prettier - Code formatter: 코드를 이쁘게 포맷 
+- CSS Modules: 나중에 PostCSS 쓸때 유용함
+
+기타 HTML & CSS 관련 익스텐션
+- IntelliSense for CSS class names in HTML
+- HTML to CSS autocompletion
+- HTML CSS Support
+- CSS Peek
+- Auto Rename Tag

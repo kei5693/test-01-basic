@@ -19,6 +19,7 @@ export default function AppWrap() {
   );
 }
 
+// Navbar의 내용을 변경 하면서 재사용 가능
 function Navbar({ children }) {
   return <header style={{ backgroundColor: 'yellow' }}>{children}</header>;
 }

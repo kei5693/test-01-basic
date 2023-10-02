@@ -1,13 +1,15 @@
 import React, { useReducer } from 'react';
 import personReducer from './reducer/person-reducer';
 
+// https://react.dev/reference/react/useReducer
+
 export default function AppMentor() {
   const [person, dispatch] = useReducer(personReducer, initialPerson);
 
   const handleUpdate = () => {
     const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
     const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
-    dispatch({ type: 'updated', prev, current });
+    dispatch({ type: 'updated', prev, current }); // personReducer(person, action)의 action의 값으로 전달
   };
 
   const handleAdd = () => {

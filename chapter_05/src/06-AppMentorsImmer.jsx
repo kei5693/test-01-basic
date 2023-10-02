@@ -1,5 +1,7 @@
-// yarn add immer use-immer
-import React, { useState } from 'react';
+// 추가 설치 필요 : yarn add immer use-immer
+// 확인은 package.json
+// reducer 보다 직관적
+import React from 'react';
 import { useImmer } from 'use-immer';
 
 export default function AppMentorsImmer() {
