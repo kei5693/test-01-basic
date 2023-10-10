@@ -48,3 +48,15 @@ add new site
 import an existing project
 github 프로젝트 생성 후 커밋
 
+
+
+9강
+yarn add react-router-dom
+
+
+One of your dependencies, babel-preset-react-app...
+에러 나올 시 아래 설치
+yarn add @babel/plugin-proposal-private-property-in-object --dev
+
+
+outlet
