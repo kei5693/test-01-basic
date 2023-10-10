@@ -12,13 +12,11 @@ function AppJSX() {
     자바스크립트 코드는 중괄호 안에 사용해야 한다.
 
     map 사용법에는 두 가지가 있습니다.
-    1) array.map((data) ⇒ ( ))
-    2) array.map((data)) ⇒ {return})
+    1) array.map((data) ⇒ ( ))        : 로직을 사용하지 않고 바로 렌더링 할 부분이 들어갈 때 사용
+    2) array.map((data)) ⇒ {return})  : 렌더링 할 부분은 return 뒤에 넣어주고 그 앞에 변수 선언이나 조건을 처리할 때 사용
 
-    첫 번째 방식은 로직을 사용하지 않고 바로 렌더링 할 부분이 들어갈 때 사용하며,
-    두 번째 방법은 렌더링 할 부분은 return 뒤에 넣어주고 그 앞에 변수 선언이나 조건을 처리할 때 사용합니다.
-
-    기존 코드에는 return 하는 부분이 없어서 warning이 발생하게 되어 있으며 return없이 사용하고 싶다면 forEach를 사용하면 된다.
+    기존 코드에는 return 하는게 없어서 warning이 발생
+    return없이 사용하고 싶다면 forEach
   */
   const name = '엘리';
   const list = ['우유', '딸기', '바나나'];
@@ -26,6 +24,7 @@ function AppJSX() {
     <>
       <h1 className='orange'>Hellow!</h1>
       <h1 className='orange'>{`Hellow! ${name}`}</h1>
+      <h1 className='orange'>Hellow! {name}</h1>
       <h2>Hellow!</h2>
       <p>{name}</p>
 

@@ -2,20 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-// import AppTheme from './AppTheme';
-// import AppJSX from './01-AppJSX';
+import AppJSX from './01-AppJSX';
 // import AppProfile from './02-AppProfile';
 // import AppCounter from './03-AppCounter';
-import AppProducts from './04-AppProducts'
+// import AppProducts from './04-AppProducts'
+// import AppTheme from './AppTheme';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <AppJSX />
     {/* <AppTheme /> */}
-    {/* <AppJSX /> */}
     {/* <AppProfile /> */}
     {/* <AppCounter /> */}
-    <AppProducts />
+    {/* <AppProducts /> */}
   </React.StrictMode>
 );
 
