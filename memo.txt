@@ -6,13 +6,11 @@
 06.CSS 라이브러리 : 42분
 07.배포하기 : 11분
 08.투두 프로젝트 챌린지 : 1시간 41분
-
 09.리액트 라우터 : 36분
 10.리액트 쿼리 : 50분
-
 11.유튜브 프로젝트 준비 : 32분
-12.유튜브 프로젝트 만들기 : 2시간 19분
 
+12.유튜브 프로젝트 만들기 : 2시간 19분
 13.쇼핑몰 프로젝트 준비 : 29분
 14.쇼핑몰 프로젝트 만들기 : 3시간 37분
 15.정리 : 15분
@@ -79,4 +77,28 @@ AIzaSyDCMK3780Kjfev-QI2Nkxx8_GsBHIxjN6k
 
 
 https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=surfing&key=AIzaSyDCMK3780Kjfev-QI2Nkxx8_GsBHIxjN6k
+
+12강
+
+API 정리
+
+키워드 검색
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=surfing&key=[YOUR_API_KEY]
+
+핫트렌드 비디오들
+https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=[YOUR_API_KEY]
+
+연관된 비디오 검색
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=Ks-_Mh1QhMc&type=video&maxResults=25&key=[YOUR_API_KEY]
+
+채널 상세내용
+https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=UC_x5XG1OV2P6uZZ5FSM9Ttw&key=[YOUR_API_KEY]
+
+
+라우터
+yarn add react-router-dom
+
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+
+Outlet
 
